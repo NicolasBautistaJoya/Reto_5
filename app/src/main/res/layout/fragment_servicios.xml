@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".presentacion.Servicios">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="301dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/domicilio"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="315dp"
+        android:layout_height="223dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="280dp"
+        android:layout_marginTop="350dp"
+        android:src="@drawable/reserva"/>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="295dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="260dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Reservacion en el restaurante"/>
+
+</FrameLayout>

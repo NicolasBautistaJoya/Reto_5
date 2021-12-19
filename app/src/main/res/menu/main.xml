@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/buscar"
+        android:title="Buscar"
+        android:icon="@drawable/icon_buscar"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/favorito"
+        android:title="Favorito"
+        android:icon="@drawable/icon_favorito"
+        app:showAsAction="always"
+        ></item>
+
+    <item
+        android:id="@+id/usuario"
+        android:title="Usuario"
+        android:icon="@drawable/icon_usuario"
+        app:showAsAction="always"
+        ></item>
+    <item
+        android:id="@+id/productos"
+        android:title="Productos"
+        ></item>
+    <item
+        android:id="@+id/servicios"
+        android:title="Servicios"
+        ></item>
+    <item
+        android:id="@+id/sucursales"
+        android:title="Sucursales"
+        ></item>
+
+    <item
+        android:id="@+id/agregar"
+        android:title="Agregar"
+        ></item>
+</menu>

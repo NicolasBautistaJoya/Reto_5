@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imgItem"
+            android:layout_width="161dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_launcher_background"></ImageView>
+
+        <LinearLayout
+            android:layout_width="213dp"
+            android:layout_height="282dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="plantilla"></TextView>
+
+            <TextView
+                android:id="@+id/tvCampo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="plantilla"
+                android:textSize="15sp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/tvCampo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="plantilla"></TextView>
+
+            <TextView
+                android:id="@+id/tvCampo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="plantilla" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
